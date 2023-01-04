@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddProduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_9sdp"
+                android:text="Add Product"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/product_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:hint="Enter Product Name"
+                android:textSize="@dimen/_20sdp" />
+
+            <EditText
+                android:id="@+id/product_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:hint="Enter Product Description"
+                android:textSize="@dimen/_20sdp" />
+
+            <EditText
+                android:id="@+id/product_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:hint="Enter Product Price"
+                android:inputType="number"
+                android:textSize="@dimen/_20sdp" />
+
+            <EditText
+                android:id="@+id/productselling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:hint="Enter Selling Price"
+                android:inputType="number"
+                android:textSize="@dimen/_20sdp" />
+
+            <Spinner
+                android:id="@+id/spin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"/>
+
+
+            <Button
+                android:id="@+id/coverbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:text="upload Cover Image"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:background="@color/purple_500"/>
+
+            <ImageView
+                android:id="@+id/coverimg"
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_9sdp"
+                android:src="@drawable/ic_launcher_background"
+                android:scaleType="fitXY"/>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/imglist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:text="upload Cover Image"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:background="@color/purple_500"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:text="Add Product"
+                android:id="@+id/upload"
+                android:background="@color/purple_500"
+                android:textColor="@color/white"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_period="1000"
+                app:iss_delay="0"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264260325350",
+    "project_id": "ecoomerceappnew",
+    "storage_bucket": "ecoomerceappnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264260325350:android:410a524e5501a6e1059027",
+        "android_client_info": {
+          "package_name": "com.example.ecoomerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264260325350-8luiqm661i6a1bqk6a10bg38rmpp8bot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdQWoel7NsVw65yxn9iSHM7KShLfO4UDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264260325350-8luiqm661i6a1bqk6a10bg38rmpp8bot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
